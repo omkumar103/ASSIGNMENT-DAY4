@@ -1,0 +1,10 @@
+let arr1 = [5, 2, 9, 1];
+let arr2 = [7, 3, 8, 4];
+let mergedArray = [...arr1, ...arr2];
+let sortedArray = mergedArray.sort((a, b) => a - b);
+let resultArray = sortedArray.slice(2);
+console.log("Array 1:", arr1);
+console.log("Array 2:", arr2);
+console.log("Merged Array:", mergedArray);
+console.log("Sorted Array:", sortedArray);
+console.log("After Removing First Two Numbers:", resultArray);
